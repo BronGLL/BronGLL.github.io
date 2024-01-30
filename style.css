@@ -1,0 +1,22 @@
+body {
+   .subheading {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+   }
+   .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 5px;
+   }
+   
+   img {
+     max-width: 50%;
+     max-height: 50%;
+   }
+   
+   .text {
+     font-size: 18px;
+   }
+}
